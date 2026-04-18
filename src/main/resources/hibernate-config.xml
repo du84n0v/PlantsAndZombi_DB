@@ -10,7 +10,12 @@
         <property name="show_sql">true</property>
 
         <!-- MAPPINGS -->
-<!--        <mapping class=""/>-->
+        <mapping class="entity.Plant"/>
+        <mapping class="entity.Customer"/>
+        <mapping class="entity.IndividualCustomer"/>
+        <mapping class="entity.CorporativeCustomer"/>
+        <mapping class="entity.Supplier"/>
+
 
     </session-factory>
 

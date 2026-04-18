@@ -11,7 +11,7 @@ Xar bitta mijozlar ning o’zini kodi bor. Mijozlar jismoniy yokiy yuridik yaxs 
 Yuridik shaxslarning VAT raqami, firmani adresi va nomi bor.
 
 Yetkazib beruvchila o’zing yqgona raqamiga ega. Shu bilan birga Xar bitta yetkazib beruvchining ismi, adresi va ssn raqami bor.
-Yetkazib beruvchi turlio’simliklarni yetkazib berishi mukin. Ammo birxil turdagi o’simliklar xar odim bitta yetkazib beruvchi orqali yetkazib beriladi.
+Yetkazib beruvchi turlio’simliklarni yetkazib berishi mukin. Ammo birxil turdagi o’simliklar xar doim bitta yetkazib beruvchi orqali yetkazib beriladi.
 
 Biz xar bir xaridor qilgan xaridlarini saqlab qolishni xoxlaymiz.
 Xarid malum bir xaridor tomonidan qaysidir vaqtda amalga oshadi va qaysidir o’simlik qanchadir miqdorda sotib olinadi.

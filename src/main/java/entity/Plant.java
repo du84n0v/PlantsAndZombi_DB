@@ -28,4 +28,9 @@ public class Plant {
     private Boolean isFlowering;
     @Column(name = "flower_color")
     private String flowerColor;
+    @Column(name = "supplier_id")
+    private Integer supplierId;
+    @ManyToOne
+    @JoinColumn(name = "supplier_id")
+    private Supplier supplier;
 }
