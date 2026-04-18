@@ -1,0 +1,22 @@
+Plants vs  Zombi
+O'simliklar ulgurji savdosini boshqarish bo'yicha ma'lumotlar bazasini tuzish kerak.
+Quyidagi malumotlarga tayangan xolda.
+
+Turli turdagi o’simliklar sotiladi. Xar bitta o’simlikning Lotin (Latin) nomi, odatiy nomi , yagona kodi mavjut.
+O’simliklar uy o’simligi yokiy dala o’simligi bo’lishi mumkin.
+Bundan tashqari o’simlik ekzotik (exotic) yokiy odatiy bo’lishik mumkin.
+O’simliklar gullaydigan yokiy gullamaydigan bo’lishi mumkin. Agar o’simlik gullaydigan bo’lsa uning qanday rangda gullashini ham bilamiz.
+
+Xar bitta mijozlar ning o’zini kodi bor. Mijozlar jismoniy yokiy yuridik yaxs bo’lishi mumkin. Jismoniy shaxslarning  paroli , ismi, manzili bor.
+Yuridik shaxslarning VAT raqami, firmani adresi va nomi bor.
+
+Yetkazib beruvchila o’zing yqgona raqamiga ega. Shu bilan birga Xar bitta yetkazib beruvchining ismi, adresi va ssn raqami bor.
+Yetkazib beruvchi turlio’simliklarni yetkazib berishi mukin. Ammo birxil turdagi o’simliklar xar odim bitta yetkazib beruvchi orqali yetkazib beriladi.
+
+Biz xar bir xaridor qilgan xaridlarini saqlab qolishni xoxlaymiz.
+Xarid malum bir xaridor tomonidan qaysidir vaqtda amalga oshadi va qaysidir o’simlik qanchadir miqdorda sotib olinadi.
+
+Vaqt davomida xar bir o’simlikning baxosini kuzatib borishni imkoni bo’lishi kerak.
+(2020 – 5000so’m, 2021-5600so’m)
+
+
