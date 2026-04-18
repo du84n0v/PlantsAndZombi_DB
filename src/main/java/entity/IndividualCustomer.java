@@ -22,7 +22,7 @@ public class IndividualCustomer {
     private String address;
     @Column(name = "customer_id")
     private Integer customerId;
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customer_id", insertable = false, updatable = false)
     private Customer customer;
 }

@@ -23,7 +23,7 @@ public class PlantPrice {
     private LocalDate toDate;
     @Column(name = "plant_id")
     private Integer plantId;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "plant_id", insertable = false, updatable = false)
     private Plant plant;
 }

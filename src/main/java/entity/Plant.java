@@ -30,7 +30,22 @@ public class Plant {
     private String flowerColor;
     @Column(name = "supplier_id")
     private Integer supplierId;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "supplier_id", insertable = false, updatable = false)
     private Supplier supplier;
+
+    @Override
+    public String toString() {
+        return "Plant{" +
+                "id=" + id +
+                ", latinName='" + latinName + '\'' +
+                ", commonName='" + commonName + '\'' +
+                ", code='" + code + '\'' +
+                ", type=" + type +
+                ", isExotic=" + isExotic +
+                ", isFlowering=" + isFlowering +
+                ", flowerColor='" + flowerColor + '\'' +
+                ", supplierId=" + supplierId +
+                '}';
+    }
 }

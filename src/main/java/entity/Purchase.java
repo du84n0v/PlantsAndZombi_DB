@@ -22,19 +22,19 @@ public class Purchase {
 
     @Column(name = "customer_id")
     private Integer customerId;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customer_id", insertable = false, updatable = false)
     private Customer customer;
 
     @Column(name = "plant_id")
     private Integer plantId;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "plant_id", insertable = false, updatable = false)
     private Plant plant;
 
     @Column(name = "price_id")
     private Integer priceId;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "price_id", insertable = false, updatable = false)
     private PlantPrice price;
 }
