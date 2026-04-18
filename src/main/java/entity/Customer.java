@@ -16,6 +16,6 @@ public class Customer {
     private Integer id;
     @Column
     private String code;
-    @Column
+    @Enumerated(EnumType.STRING)
     private CustomerType type;
 }

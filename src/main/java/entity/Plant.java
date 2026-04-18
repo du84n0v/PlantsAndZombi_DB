@@ -31,6 +31,6 @@ public class Plant {
     @Column(name = "supplier_id")
     private Integer supplierId;
     @ManyToOne
-    @JoinColumn(name = "supplier_id")
+    @JoinColumn(name = "supplier_id", insertable = false, updatable = false)
     private Supplier supplier;
 }

@@ -23,6 +23,6 @@ public class PlantPrice {
     private LocalDate toDate;
     @Column(name = "plant_id")
     private Integer plantId;
-    @Column(name = "plant_id")
+    @Column(name = "plant_id", insertable = false, updatable = false)
     private Plant plant;
 }

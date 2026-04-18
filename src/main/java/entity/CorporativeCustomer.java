@@ -20,4 +20,9 @@ public class CorporativeCustomer {
     private String firmName;
     @Column(name = "firm_address")
     private String firmAddress;
+    @Column(name = "customer_id")
+    private Integer customerId;
+    @OneToOne
+    @JoinColumn(name = "customer_id", insertable = false, updatable = false)
+    private Customer customer;
 }
