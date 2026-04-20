@@ -8,7 +8,6 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.query.Query;
 
 import java.util.List;
-import java.util.Queue;
 
 public class Main {
     private SessionFactory factory;
